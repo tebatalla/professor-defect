@@ -1,0 +1,13 @@
+{
+  "name": "professor-defect",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "benskz",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "cheerio": "^1.0.0-rc.3",
+    "discord.js": "^11.5.1",
+    "lodash": "^4.17.11"
+  }
+}
