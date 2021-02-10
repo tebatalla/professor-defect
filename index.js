@@ -1,7 +1,6 @@
 const Discord = require('discord.js')
 const command = require('./command')
-
-const Auth = require('./auth.json')
+require('dotenv').config();
 
 const Client = new Discord.Client()
 
@@ -21,4 +20,4 @@ Client.on('message', (message) => {
   }
 })
 
-Client.login(Auth.bot_token)
+Client.login(process.env.BOT_TOKEN)
